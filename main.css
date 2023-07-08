@@ -1,0 +1,111 @@
+@import url('colors.css');
+@import url('font.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: openSansSemiBold;
+}
+
+.driverFiles-wrapper {
+    padding: 10px;
+    background: var(--white);
+}
+.driverFiles-card {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.driverFiles-header {
+    color: var(--dark-blue);
+    font-family: openSansBold;
+    font-size: 1.5rem;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.driverFiles-body {
+    margin-bottom: 10px;
+}
+.driverFiles-body_header {
+    color: var(--black);
+    font-family: openSansBold;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.driverFiles-body_details {
+    display: flex;
+    width: 100%;
+}
+.driverFiles-body_left {
+    width: 60%;
+}
+.driverFiles-body_right {
+    width: 40%;
+}
+.driverFiles-body_left-text {
+    color: var(--dark-gray);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+.driverFiles-body_right-text {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+.driverFiles-body_left-text:last-child, .driverFiles-body_right-text:last-child {
+    margin-bottom: 0;
+}
+.driverFiles-body_left-status {
+    color: var(--green);
+    font-family: openSansBold;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.driverFiles-footer {
+    padding:  5px 9px;
+    background: var(--tin-light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.driverFiles-footer-left {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.driverFiles-footer-right {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.driverFiles-footer_text {
+    color: var(--dark-gray, #717171);
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-right: 7px;
+}
+.driverFiles-footer_item {
+    color: var(--black, #000);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.driverFiles-footer_subtext {
+    color: var(--dark-gray);
+}
+.driverFiles {
+    border-bottom: 1 px solid var(--light-gray);
+}
