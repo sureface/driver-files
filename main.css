@@ -52,6 +52,7 @@
     line-height: 140%;
     text-transform: capitalize;
     margin-bottom: 6px;
+    margin-right: 10px;
 }
 .driverFiles-body_right-text {
     color: var(--black);
@@ -123,8 +124,9 @@
 }
 .driverFiles-extra_details {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: calc(60% - 10px) 40%;
     row-gap: 9px;
+    gap: 10px;
     margin-bottom: 14px;
     padding: 7px 9px 4px 9px;
     background: var(--light-red);
