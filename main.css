@@ -22,6 +22,8 @@
     line-height: 140%;
     text-transform: capitalize;
     margin-bottom: 22px;
+    padding-right: 9px;
+    padding-left: 9px;
 }
 .driverFiles-body {
     margin-bottom: 10px;
@@ -106,6 +108,51 @@
 .driverFiles-footer_subtext {
     color: var(--dark-gray);
 }
-.driverFiles {
-    border-bottom: 1 px solid var(--light-gray);
+.driverFiles-card_wrapper {
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--light-gray);
+    margin-bottom: 10px;
+}
+.qm--text-green {
+    color: var(--green);
+    font-family: openSansSemiBold;
+}
+.qm--text-red {
+    color: var(--red);
+    font-family: openSansSemiBold;
+}
+.driverFiles-extra_details {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    row-gap: 9px;
+    margin-bottom: 14px;
+    padding: 7px 9px 4px 9px;
+    background: var(--light-red);
+}
+.driverFiles-extra_details-title {
+    color: var(--dark-gray);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.driverFiles-extra_details-text {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.qm--upRise {
+    display: flex;
+    align-items: center;
+    color: var(--red);
+    font-family: openSansBold;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.qm--upRise img {
+    margin-right: 4px;
+    margin-left: 4px;
 }
